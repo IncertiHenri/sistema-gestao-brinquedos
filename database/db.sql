@@ -7,6 +7,6 @@ id INT AUTO_INCREMENT PRIMARY KEY,
 nome VARCHAR(100) NOT NULL,
 categoria VARCHAR(100) NOT NULL,
 faixa_etaria VARCHAR(100) NOT NULL,
-preco FLOAT NOT NULL,
+preco INT NOT NULL,
 quantidade_estoque INT NOT NULL
 );
