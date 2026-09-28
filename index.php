@@ -58,7 +58,7 @@
                         <td><?php echo $brinquedo["preco"] ?></td>
                         <td><?php echo $brinquedo["quantidade_estoque"] ?></td>    
                         <td>
-                            <a href="public/editar_brinquedo.php?id=<?php echo $brinquedo["id"] ?>">Editar brinquedo</a>
+                            <a href="public/formulario_editar_brinquedo.php?id=<?php echo $brinquedo["id"] ?>">Editar brinquedo</a>
                             <a href="public/excluir_brinquedo.php?id=<?php echo $brinquedo["id"] ?>">Excluir brinquedo</a>
                         </td>           
                     </tr>
